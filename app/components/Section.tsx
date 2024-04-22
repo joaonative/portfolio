@@ -1,0 +1,17 @@
+import { ReactNode } from "react";
+
+interface Props {
+  children: ReactNode;
+  title: string;
+}
+
+const Section = ({ children, title }: Props) => {
+  return (
+    <section id={title} className="flex flex-col gap-8">
+      <h1 className="text-4xl lg:text-5xl font-bold text-center">{title}</h1>
+      <section id={title}>{children}</section>
+    </section>
+  );
+};
+
+export default Section;
