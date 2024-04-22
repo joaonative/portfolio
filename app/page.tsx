@@ -16,7 +16,7 @@ export default function Home() {
             commodo porttitor metus, quis sodales tortor euismod vel.
           </blockquote>
           <div className="flex items-center gap-5">
-            <Button variant={"primary"}>Try Project</Button>
+            <Button variant={"primary"}>Contact Me</Button>
             <Button variant={"secondary"}>My GitHub</Button>
           </div>
         </div>
