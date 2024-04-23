@@ -9,9 +9,9 @@ const Header = () => {
         <Terminal className="text-primary" size={32} />
         <h1 className="text-primary font-medium text-xl lg:text-2xl">Matos</h1>
       </div>
-      <div className="flex items-center gap-5 text-base lg:text-xl">
-        <Link href={"/#"}>Projects</Link>
-        <Link href={"/#About Me"}>About Me</Link>
+      <div className="flex items-center gap-2 lg:gap-5 text-base lg:text-xl">
+        <Link href={"/#projects"}>Projects</Link>
+        <Link href={"/#aboutme"}>About Me</Link>
         <Link href={"/#"}>Curriculum</Link>
       </div>
     </header>

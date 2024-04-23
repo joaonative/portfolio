@@ -18,17 +18,17 @@ const ProjectCard = ({ name, description, gitHub, link, image }: Props) => {
         alt={`${name} project image`}
         width={512}
         height={256}
-        className="w-full h-56 border-primary object-cover rounded-tr-lg rounded-tl-lg bg-primary"
+        className="w-full 3xl:h-56 lg:h-48 border-primary object-cover rounded-tr-lg rounded-tl-lg bg-primary"
       />
       <div className="flex flex-col p-5 gap-5">
-        <blockquote className="text-xl font-medium text-white/60 line-clamp-3">
+        <blockquote className="text-xl font-medium text-white/60">
           {description}
         </blockquote>
         <div className="flex items-center justify-between">
-          <Link href={link}>
+          <Link href={link} target="_blank">
             <Button variant="primary">Try Project</Button>
           </Link>
-          <Link href={gitHub}>
+          <Link href={gitHub} target="_blank">
             <Button variant="secondary">View Github</Button>
           </Link>
         </div>

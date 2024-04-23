@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <Section title="My Projects">
-      <div className="grid-cols-1 lg:grid-cols-4 grid gap-12">
+    <Section title="My Projects" id="projects">
+      <div className="grid-cols-1 lg:grid-cols-3 3xl:grid-cols-4 grid gap-12">
         <ProjectCard
           name="iParque"
           description="An outdoor events platform that allows users to create and participate in events and communities"
