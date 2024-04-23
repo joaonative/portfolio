@@ -11,22 +11,28 @@ export default function Home() {
           <h1 className="font-bold text-4xl lg:text-5xl">
             Front-end Developer
           </h1>
-          <blockquote className="font-medium text-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            commodo porttitor metus, quis sodales tortor euismod vel.
+          <blockquote className="font-medium text-2xl max-w-7xl">
+            At 18, I&apos;m passionate about becoming a Front-End Developer. I
+            aim to master HTML, CSS, and JavaScript to create engaging user
+            interfaces. With a hunger for learning and a keen eye for design,
+            I&apos;m committed to pushing the boundaries of innovation in web
+            development. Let&apos;s make the web a more beautiful and
+            user-friendly place together.
           </blockquote>
           <div className="flex items-center gap-5">
             <Button variant={"primary"}>Contact Me</Button>
             <Button variant={"secondary"}>My GitHub</Button>
           </div>
         </div>
-        <Image
-          src={"/pic.jpg"}
-          alt="joaonative github avatar"
-          width={256}
-          height={256}
-          className="rounded-full bg-primary"
-        />
+        <div className="flex justify-center w-1/2">
+          <Image
+            src={"/pic.jpg"}
+            alt="joaonative github avatar"
+            width={256}
+            height={256}
+            className="rounded-full bg-primary"
+          />
+        </div>
       </div>
       <Projects />
       <Section title="About Me">
