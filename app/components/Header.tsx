@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { Terminal } from "lucide-react";
 import Link from "next/link";
 import React from "react";

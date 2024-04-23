@@ -20,11 +20,11 @@ const ProjectCard = ({ name, description, gitHub, link, image }: Props) => {
         height={256}
         className="w-full 3xl:h-56 lg:h-48 border-primary object-cover rounded-tr-lg rounded-tl-lg bg-primary"
       />
-      <div className="flex flex-col p-5 gap-5">
+      <div className="flex flex-col p-3 gap-5">
         <blockquote className="text-xl font-medium text-white/60">
           {description}
         </blockquote>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center gap-5">
           <Link href={link} target="_blank">
             <Button variant="primary">Try Project</Button>
           </Link>
