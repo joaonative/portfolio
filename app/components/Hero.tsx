@@ -41,6 +41,7 @@ const Hero = () => {
         className="flex justify-center lg:w-1/2"
       >
         <Image
+          priority
           src={"/pic.png"}
           alt="João Victor profile picture"
           width={512}
