@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "./components/Header";
+import Header from "./components/layout/Header";
 import { Kanit } from "next/font/google";
+import Footer from "./components/layout/Footer";
 const kanit = Kanit({ weight: ["400", "500", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "João Victor de Matos",
+  title: "João Victor de Matos Costa",
   description: "Frontend Developer Portifolio",
 };
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={kanit.className}>
         <Header />
         <div className="container">{children}</div>
+        <Footer />
       </body>
     </html>
   );

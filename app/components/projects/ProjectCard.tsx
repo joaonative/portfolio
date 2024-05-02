@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "./Button";
+import Button from "../ui/Button";
 import Link from "next/link";
 
 interface Props {
@@ -29,7 +29,7 @@ const ProjectCard = ({ name, description, gitHub, link, image }: Props) => {
             <Button variant="primary">Try Project</Button>
           </Link>
           <Link href={gitHub} target="_blank">
-            <Button variant="secondary">View Github</Button>
+            <Button variant="secondary">View Code</Button>
           </Link>
         </div>
       </div>

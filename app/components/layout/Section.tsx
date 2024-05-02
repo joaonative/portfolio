@@ -12,12 +12,12 @@ interface Props {
 const Section = ({ children, title, id }: Props) => {
   return (
     <motion.section
+      id={id}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      id={title}
-      className="flex flex-col gap-8"
+      className="flex flex-col gap-2 lg:gap-8"
     >
       <motion.h1
         initial={{ x: -20 }}
@@ -27,7 +27,7 @@ const Section = ({ children, title, id }: Props) => {
       >
         {title}
       </motion.h1>
-      <section id={title}>{children}</section>
+      <div>{children}</div>
     </motion.section>
   );
 };

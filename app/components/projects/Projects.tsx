@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Section from "./Section";
+import Section from "../layout/Section";
 import ProjectCard from "./ProjectCard";
 
 import { motion } from "framer-motion";
@@ -38,6 +38,7 @@ const Projects = () => {
             initial="initial"
             animate="animate"
             transition={{ duration: 0.3, delay: i * 0.2 }}
+            key={i}
           >
             <ProjectCard
               name={project.name}
