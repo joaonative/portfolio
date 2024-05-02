@@ -13,7 +13,7 @@ export default function Home() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="px-5 lg:px-32 flex flex-col gap-8 mt-5 lg:mt-32 pb-8"
+      className="px-5 lg:px-16 xl:px-32 flex flex-col gap-8 mt-5 lg:mt-32 pb-8"
     >
       <Hero />
       <Projects />

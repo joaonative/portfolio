@@ -20,7 +20,7 @@ const Hero = () => {
             💻
           </span>
         </div>
-        <blockquote className="font-medium text-xl lg:text-2xl max-w-7xl">
+        <blockquote className="font-medium text-xl lg:text-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl">
           <span aria-label="hands waving emoji">👋</span> Hello! I'm diving into
           web development, aiming to specialize in front-end with React. My
           focus: crafting responsive designs with accessibility in mind. Any
@@ -46,7 +46,7 @@ const Hero = () => {
           alt="João Victor profile picture"
           width={512}
           height={512}
-          className="rounded-full img object-cover w-52 h-52 bg-center lg:h-80 lg:w-80"
+          className="rounded-full img object-cover w-52 h-52 bg-center lg:h-64 lg:w-64 xl:h-80 xl:w-80"
         />
       </motion.div>
     </div>
