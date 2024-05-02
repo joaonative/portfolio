@@ -23,8 +23,8 @@ const Hero = () => {
         <blockquote className="font-medium text-xl lg:text-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl">
           <span aria-label="hands waving emoji">👋</span> Hello! I&apos;m diving
           into web development, aiming to specialize in front-end with React. My
-          focus: crafting responsive designs with accessibility in mind. Any
-          tips for a beginner like me?
+          focus: build responsive designs with accessibility in mind. Any tips
+          for a beginner like me?
         </blockquote>
 
         <div className="flex items-center gap-5">
