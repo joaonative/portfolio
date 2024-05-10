@@ -10,19 +10,14 @@ const courses: CourseProps[] = [
     endDate: "Jun 2024",
     isCompleted: false,
   },
-  {
-    courseName: "Técnico em Informática para Internet",
-    institution: "Fundação Indaiatubana de Educação e Cultura",
-    initialDate: "Jan 2023",
-    endDate: "Jun 2024",
-    isCompleted: true,
-  },
 ];
 
 const Education = () => {
   return (
     <Section title="Education" id="education">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div
+        className="flex justify-center " /* grid grid-cols-1 md:grid-cols-2 gap-8 */
+      >
         {courses.map((course, index) => (
           <Course
             courseName={course.courseName}
