@@ -13,9 +13,9 @@ const Header = () => {
         <h1 className="text-primary font-medium text-xl lg:text-2xl">Matos</h1>
       </div>
       <div className="flex items-center gap-2 lg:gap-5 text-base lg:text-xl">
-        <Link href={"/#projects"}>Projects</Link>
-        <Link href={"/#aboutme"}>About Me</Link>
-        <Link href={"/#"}>Curriculum</Link>
+        <Link href={"/#projects"}>Projetos</Link>
+        <Link href={"/#aboutme"}>Sobre Mim</Link>
+        <a href={"/CV.pdf"}>Curriculum</a>
       </div>
     </header>
   );

@@ -14,7 +14,7 @@ const courses: CourseProps[] = [
 
 const Education = () => {
   return (
-    <Section title="Education" id="education">
+    <Section title="Educação" id="education">
       <div
         className="flex justify-center " /* grid grid-cols-1 md:grid-cols-2 gap-8 */
       >

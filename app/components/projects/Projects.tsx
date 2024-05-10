@@ -15,7 +15,7 @@ const Projects = () => {
     {
       name: "iParque",
       description:
-        "An outdoor events platform that allows users to create and participate in events and communities",
+        "Uma plataforma de criação de eventos e comunidades em parques, usuários navegam em uma interface amigável para participar de eventos!",
       image: "/iparque.png",
       gitHub: "https://github.com/joaonative/tcc-front",
       link: "https://iparque.vercel.app",
@@ -23,14 +23,14 @@ const Projects = () => {
     {
       name: "EducaPlan",
       description:
-        "An a lesson planning manager to make teachers work easier, users create, edit and delete plans",
+        "Criação e manutenção de planejamentos de aulas para professores, professores exportam seus planejamentos facilmente!",
       image: "/educaplan.png",
       gitHub: "https://github.com/joaonative/educaplan",
       link: "https://educaplan.vercel.app",
     },
   ];
   return (
-    <Section title="My Projects" id="projects">
+    <Section title="Meus Projetos" id="projects">
       <ul className="grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 grid gap-12">
         {projects.map((project, i) => (
           <motion.li

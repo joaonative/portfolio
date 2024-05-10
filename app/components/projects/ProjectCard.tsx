@@ -26,10 +26,10 @@ const ProjectCard = ({ name, description, gitHub, link, image }: Props) => {
         </blockquote>
         <div className="flex items-center gap-5">
           <Link href={link} target="_blank">
-            <Button variant="primary">Try Project</Button>
+            <Button variant="primary">Testar Projeto</Button>
           </Link>
           <Link href={gitHub} target="_blank">
-            <Button variant="secondary">View Code</Button>
+            <Button variant="secondary">Repositório</Button>
           </Link>
         </div>
       </div>

@@ -14,25 +14,25 @@ const Hero = () => {
       >
         <div className="flex items-center gap-2">
           <h1 className="font-bold text-3xl lg:text-5xl">
-            Front-end Developer
+            Desenvolvedor WEB Frontend
           </h1>
           <span aria-label="computer emoji" className="text-3xl lg:text-5xl">
             💻
           </span>
         </div>
         <blockquote className="font-medium text-xl lg:text-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl">
-          <span aria-label="hands waving emoji">👋</span> Hello! I&apos;m diving
-          into web development, aiming to specialize in front-end with React. My
-          focus: build responsive designs with accessibility in mind. Any tips
-          for a beginner like me?
+          <span aria-label="hands waving emoji">👋</span>
+          Olá! Estou mergulhando no desenvolvimento web, com o objetivo de me
+          especializar em front-end com React. Meu foco: construir designs
+          responsivos com acessibilidade em mente.
         </blockquote>
 
         <div className="flex items-center gap-5">
           <Link href={""} target="_blank">
-            <Button variant={"primary"}>Get In Touch</Button>
+            <Button variant={"primary"}>Entrar em Contato</Button>
           </Link>
           <Link href={"https://github.com/joaonative"} target="_blank">
-            <Button variant={"secondary"}>Explore My GitHub</Button>
+            <Button variant={"secondary"}>Explorar GitHub</Button>
           </Link>
         </div>
       </motion.div>
