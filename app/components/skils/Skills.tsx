@@ -41,7 +41,7 @@ const skills = [
     icon: <RiNextjsLine size={32} />,
   },
   {
-    tech: "Git/GitLab/GitHub",
+    tech: "Git",
     icon: <FaGitAlt size={32} color="orange" />,
   },
   {
