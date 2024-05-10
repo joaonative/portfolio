@@ -70,8 +70,8 @@ const Skills = () => {
   return (
     <Section title="My Skills" id="skills">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-6">
-        {skills.map((s) => (
-          <span className="col-span-1 flex items-center gap-2 text-2xl">
+        {skills.map((s, i) => (
+          <span className="col-span-1 flex items-center gap-2 text-2xl" key={i}>
             {s.icon}
             <p>{s.tech}</p>
           </span>
