@@ -7,7 +7,7 @@ const kanit = Kanit({ weight: ["400", "500", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "João Victor de Matos Costa",
-  description: "Frontend Developer Portifolio",
+  description: "Desenvolvedor WEB Frontend",
 };
 
 export default function RootLayout({
