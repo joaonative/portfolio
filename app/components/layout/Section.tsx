@@ -17,7 +17,7 @@ const Section = ({ children, title, id }: Props) => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col gap-2 lg:gap-8"
+      className="flex flex-col gap-6 md:gap-12"
     >
       <motion.h1
         initial={{ x: -20 }}

@@ -12,15 +12,16 @@ interface Props {
 
 const ProjectCard = ({ name, description, gitHub, link, image }: Props) => {
   return (
-    <div className="col-span-1 bg-[#222222] rounded-lg">
+    <div className="col-span-1 grid md:grid-cols-2 items-center">
       <Image
         src={image}
         alt={`${name} project image`}
         width={512}
         height={256}
-        className="w-full 3xl:h-56 lg:h-48 border-primary object-cover rounded-tr-lg rounded-tl-lg bg-primary"
+        className="h-44 md:h-60 object-contain"
       />
-      <div className="flex flex-col p-3 gap-5">
+      <div className="col-span-1 flex flex-col gap-3">
+        <h1 className="text-2xl">{name}</h1>
         <blockquote className="text-xl font-medium text-white/60">
           {description}
         </blockquote>

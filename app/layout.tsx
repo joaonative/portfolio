@@ -20,7 +20,7 @@ export default function RootLayout({
       <link rel="icon" href="/app/favicon.ico" sizes="any" />
       <body className={kanit.className}>
         <Header />
-        <div className="container">{children}</div>
+        <div className="">{children}</div>
         <Footer />
       </body>
     </html>

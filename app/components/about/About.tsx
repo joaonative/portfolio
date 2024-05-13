@@ -10,7 +10,7 @@ const About = () => {
         recentemente tenho aprofundado meus conhecimentos em desenvolvimento
         frontend. Estou comprometido em produzir designs frontend e sempre busco
         me manter atualizado sobre as tecnologias e melhores práticas atuais.
-        Atualmente, estou estudando Computação na Internet na FIEC (Fundação
+        Atualmente, estou estudando Informática para Internet na FIEC (Fundação
         Indaiatubana de Educação e Cultura). Estou em busca de um estágio para
         colocar minha dedicação e habilidades em prática.
       </h1>

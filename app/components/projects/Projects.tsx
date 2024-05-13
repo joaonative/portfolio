@@ -31,7 +31,7 @@ const Projects = () => {
   ];
   return (
     <Section title="Meus Projetos" id="projects">
-      <ul className="grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 grid gap-12">
+      <ul className="grid-cols-1 grid gap-6 md:gap-12">
         {projects.map((project, i) => (
           <motion.li
             variants={itemVariants}
