@@ -12,8 +12,8 @@ export default function Home() {
     <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.3 }}
-      className="md:w-[75%] w-[90%] mx-auto flex flex-col gap-12 md:gap-20 mt-8 pb-8"
+      transition={{ duration: 0.1 }}
+      className="md:w-[80%] w-[90%] mx-auto flex flex-col gap-12 md:gap-20 mt-8 pb-8"
     >
       <Hero />
       <Projects />

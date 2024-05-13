@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./components/layout/Header";
 import { Kanit } from "next/font/google";
 import Footer from "./components/layout/Footer";
+import Link from "next/link";
 const kanit = Kanit({ weight: ["400", "500", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
