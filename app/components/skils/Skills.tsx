@@ -45,7 +45,7 @@ const skills = [
     icon: <FaGitAlt size={32} color="orange" />,
   },
   {
-    tech: "Figma/Mockups",
+    tech: "Mockups",
     icon: <FiFigma size={32} />,
   },
   {
