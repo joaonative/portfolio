@@ -42,11 +42,11 @@ const Hero = () => {
       >
         <Image
           priority
-          src={"/pic.png"}
+          src={"/pic.jpg"}
           alt="João Victor profile picture"
           width={512}
           height={512}
-          className="rounded-full img object-cover w-52 h-52 bg-center lg:h-64 lg:w-64 xl:h-80 xl:w-80"
+          className="rounded-full object-cover w-52 h-52 bg-center lg:h-64 lg:w-64 xl:h-80 xl:w-80"
         />
       </motion.div>
     </div>
