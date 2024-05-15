@@ -16,7 +16,7 @@ const Projects = () => {
       name: "iParque",
       description:
         "Uma plataforma de criação de eventos e comunidades em parques, usuários navegam em uma interface amigável para participar de eventos!",
-      image: "/iparque.png",
+      image: "/iparque.webp",
       gitHub: "https://github.com/joaonative/tcc-front",
       link: "https://iparque.vercel.app",
     },
@@ -24,7 +24,7 @@ const Projects = () => {
       name: "EducaPlan",
       description:
         "Criação e manutenção de planejamentos de aulas para professores, professores exportam seus planejamentos facilmente!",
-      image: "/educaplan.png",
+      image: "/educaplan.webp",
       gitHub: "https://github.com/joaonative/educaplan",
       link: "https://educaplan.vercel.app",
     },

@@ -42,7 +42,7 @@ const Hero = () => {
       >
         <Image
           priority
-          src={"/pic.jpg"}
+          src={"/pic.webp"}
           alt="João Victor profile picture"
           width={512}
           height={512}
