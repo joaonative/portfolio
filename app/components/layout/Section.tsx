@@ -17,13 +17,13 @@ const Section = ({ children, title, id }: Props) => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col gap-6 md:gap-12"
+      className="flex flex-col gap-3 md:gap-8"
     >
       <motion.h1
         initial={{ x: -20 }}
         whileInView={{ x: 1 }}
         viewport={{ once: true }}
-        className="text-4xl lg:text-5xl font-bold text-center"
+        className="text-4xl lg:text-5xl font-bold"
       >
         {title}
       </motion.h1>

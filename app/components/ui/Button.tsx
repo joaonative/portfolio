@@ -15,7 +15,7 @@ const Button = ({ children, variant }: Props) => {
   }`;
   return (
     <button
-      className={`${classes} py-1 px-3 rounded flex items-center gap-2 text-xl font-medium`}
+      className={`${classes} py-4 px-4 rounded-2xl flex items-center gap-2 text-xl font-medium shadow-2xl`}
     >
       {children}
     </button>
