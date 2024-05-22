@@ -21,7 +21,7 @@ const Hero = () => {
           opportunities.
         </blockquote>
         <div className="flex items-center gap-5">
-          <Link href={""} target="_blank">
+          <Link href={"mailto:joaodematos127@gmail.com"} target="_blank">
             <Button variant={"primary"}>Get In Touch</Button>
           </Link>
           <Link href={"https://github.com/joaonative"} target="_blank">
