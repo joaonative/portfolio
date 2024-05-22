@@ -15,22 +15,35 @@ const Projects = () => {
     {
       name: "iParque",
       description:
-        "Uma plataforma de criação de eventos e comunidades em parques, usuários navegam em uma interface amigável para participar de eventos!",
-      image: "/iparque.webp",
+        "IParque is an events website, where people can meet, for various activities, such as sports, conversations, picnics and even birthdays, also helping people to meet, get out of the house, have fun, breathe the fresh air of the park , among other diverse activities.",
+      image: "/projects/iparqueThumb.webp",
+      imageDemo: "/projects/iparque.webp",
       gitHub: "https://github.com/joaonative/tcc-front",
       link: "https://iparque.vercel.app",
+      techs: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind",
+        "MongoDB",
+        "Express",
+        "Firestore",
+        "Vercel",
+      ],
     },
     {
       name: "EducaPlan",
       description:
-        "Criação e manutenção de planejamentos de aulas para professores, professores exportam seus planejamentos facilmente!",
-      image: "/educaplan.webp",
+        "EducaPlan is a 100% client-side webapp where teachers create and manage their lesson plans through an intuitive and practical interface, which allows easy export of plans.",
+      image: "/projects/educaplanThumb.webp",
+      imageDemo: "/projects/educaplan.webp",
       gitHub: "https://github.com/joaonative/educaplan",
       link: "https://educaplan.vercel.app",
+      techs: ["React", "TypeScript", "Vite", "Tailwind", "Vercel"],
     },
   ];
   return (
-    <Section title="Meus Projetos" id="projects">
+    <Section title="Latest Projects" id="projects">
       <ul className="grid-cols-1 grid gap-6 md:gap-12">
         {projects.map((project, i) => (
           <motion.li
@@ -40,13 +53,7 @@ const Projects = () => {
             transition={{ duration: 0.3, delay: i * 0.2 }}
             key={i}
           >
-            <ProjectCard
-              name={project.name}
-              description={project.description}
-              image={project.image}
-              link={project.link}
-              gitHub={project.gitHub}
-            />
+            <ProjectCard project={project} />
           </motion.li>
         ))}
       </ul>
