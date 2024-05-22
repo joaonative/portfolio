@@ -11,7 +11,7 @@ const About = () => {
         frontend. I am committed to producing frontend designs and always seek
         stay up to date on current technologies and best practices. Currently, I
         am studying IT for the Internet at FIEC (Fundação Indaiatubana of
-        Education and Culture). I'm looking for an internship to put my
+        Education and Culture). I&apos;m looking for an internship to put my
         dedication and skills into practice.
       </h1>
     </Section>

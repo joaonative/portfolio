@@ -13,10 +13,10 @@ const Hero = () => {
         className="flex flex-col gap-5"
       >
         <h1 className="font-bold text-3xl lg:text-5xl">
-          Hey, I'm João Victor a Web Developer
+          Hey, I&apos;m João Victor a Web Developer
         </h1>
         <blockquote className="font-medium text-xl lg:text-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl">
-          I'm diving into programming, with the goal of specializing in
+          I&apos;m diving into programming, with the goal of specializing in
           front-end development. I am currently looking for internship
           opportunities.
         </blockquote>
