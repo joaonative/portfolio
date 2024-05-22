@@ -12,26 +12,20 @@ const Hero = () => {
         animate={{ y: 0 }}
         className="flex flex-col gap-5"
       >
-        <div className="flex items-center gap-2">
-          <h1 className="font-bold text-3xl lg:text-5xl">
-            Desenvolvedor WEB Frontend
-          </h1>
-          <span aria-label="computer emoji" className="text-3xl lg:text-5xl">
-            💻
-          </span>
-        </div>
+        <h1 className="font-bold text-3xl lg:text-5xl">
+          Hey, I'm João Victor a Web Developer
+        </h1>
         <blockquote className="font-medium text-xl lg:text-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl">
-          <span aria-label="hands waving emoji">👋</span>
-          Olá! Estou mergulhando no desenvolvimento web, com o objetivo de me
-          especializar em desenvolvimento front-end.
+          I'm diving into programming, with the goal of specializing in
+          front-end development. I am currently looking for internship
+          opportunities.
         </blockquote>
-
         <div className="flex items-center gap-5">
           <Link href={""} target="_blank">
-            <Button variant={"primary"}>Entre em Contato</Button>
+            <Button variant={"primary"}>Get In Touch</Button>
           </Link>
           <Link href={"https://github.com/joaonative"} target="_blank">
-            <Button variant={"secondary"}>Meu GitHub</Button>
+            <Button variant={"secondary"}>Browse GitHub</Button>
           </Link>
         </div>
       </motion.div>

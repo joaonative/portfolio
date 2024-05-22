@@ -3,16 +3,16 @@ import Section from "../layout/Section";
 
 const About = () => {
   return (
-    <Section title="Sobre Mim" id="aboutme">
+    <Section title="About Me" id="aboutme">
       <h1 className="font-medium text-xl lg:text-2xl">
-        Olá, eu sou João Victor de Matos Costa, um residente de 18 anos de
-        Indaiatuba, SP. Desde os 17 anos, tenho interesse em programação web e
-        recentemente tenho aprofundado meus conhecimentos em desenvolvimento
-        frontend. Estou comprometido em produzir designs frontend e sempre busco
-        me manter atualizado sobre as tecnologias e melhores práticas atuais.
-        Atualmente, estou estudando Informática para Internet na FIEC (Fundação
-        Indaiatubana de Educação e Cultura). Estou em busca de um estágio para
-        colocar minha dedicação e habilidades em prática.
+        Hello, I am João Victor de Matos Costa, an 18 year old resident of
+        Indaiatuba, SP. Since I was 17, I have been interested in web
+        programming and Recently I have deepened my knowledge in development
+        frontend. I am committed to producing frontend designs and always seek
+        stay up to date on current technologies and best practices. Currently, I
+        am studying IT for the Internet at FIEC (Fundação Indaiatubana of
+        Education and Culture). I'm looking for an internship to put my
+        dedication and skills into practice.
       </h1>
     </Section>
   );
