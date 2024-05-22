@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary/25 py-2">
+    <footer className="bg-primary text-white py-2">
       <h1 className="text-base text-center">
         Made & Designed by{" "}
         <a
@@ -10,7 +10,7 @@ const Footer = () => {
           href="https://github.com/joaonative"
           target="_blank"
         >
-          @joaonative
+          me
         </a>
       </h1>
     </footer>
